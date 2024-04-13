@@ -11,7 +11,8 @@ export const keywords = [
   "machine learning",
   "mathematics",
   "programming languages",
-  "software engineering"
+  "software engineering",
+  "typography"
 ] as const;
 
 export type KeyWord = typeof keywords[number];
@@ -108,6 +109,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["algorithmics", "formal methods"]
   },
   {
+    word: "at-sign",
+    type: "sb.",
+    translations: ["snabel-a,  -'et, -'er, -'erne"],
+    keywords: ["typography"]
+  },
+  {
     word: "associative",
     type: "adj.",
     translations: ["assiociativ, -t, -e"],
@@ -153,6 +160,14 @@ export const en_dk : Lexeme[] = [
       "startbetingelse, -n, -r, -rne"
     ],
     keywords: ["algorithmics", "formal methods"]
+  },
+  {
+    word: "backslash",
+    type: "sb.",
+    translations: [
+      "omvendte skråstreg,  -en, -er, -erne"
+    ],
+    keywords: ["typography"]
   },
   {
     word: "beta",
@@ -686,6 +701,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["graph", "geometry"]
   },
   {
+    word: "ellipsis",
+    type: "sb.",
+    translations: ["udeladelsesprikker, -kerne"],
+    keywords: ["typography"]
+  },
+  {
     word: "empty",
     type: "adj.",
     translations: ["tom, -t, -me"],
@@ -740,10 +761,16 @@ export const en_dk : Lexeme[] = [
     keywords: ["greek alphabet"]
   },
   {
+    word: "exclamation point",
+    type: "sb.",
+    translations: ["udråbstegn, -et, -, ene"],
+    keywords: ["typography"]
+  },
+  {
     word: "expression",
     type: "sb.",
     translations: ["udtryk, -ket, -, kene"],
-    keywords: ["complexity theory", "formal methods"]
+    keywords: ["complexity theory", "formal methods", "programming languages"]
   },
   {
     word: "expressability",
@@ -873,6 +900,12 @@ export const en_dk : Lexeme[] = [
     keywords: []
   },
   {
+    word: "hyphen",
+    type: "sb.",
+    translations: ["bindestreg, -en, -er, -erne"],
+    keywords: ["typography"]
+  },
+  {
     word: "iff",
     note: "abr. \"if and only if\"",
     translations: ["hviss (hvis og kun hvis)"],
@@ -907,6 +940,12 @@ export const en_dk : Lexeme[] = [
     type: "adj.",
     translations: ["ufuldstændig, -t, -e"],
     keywords: ["formal methods"]
+  },
+  {
+    word: "indentation",
+    type: "sb.",
+    translations: ["indrykning, -en, -er, -erne"],
+    keywords: ["typography"]
   },
   {
     word: "indistinguishability",
@@ -963,6 +1002,18 @@ export const en_dk : Lexeme[] = [
     keywords: ["complexity theory", "formal methods"]
   },
   {
+    word: "inherit",
+    type: "vb.",
+    translations: ["arv, -n, -r, -rne"],
+    keywords: ["programming languages", "software engineering"]
+  },
+  {
+    word: "inheritance",
+    type: "sb.",
+    translations: ["nedarvning, -en, -er, -erne"],
+    keywords: ["programming languages", "software engineering"]
+  },
+  {
     word: "initial state",
     type: "sb.",
     translations: ["starttilstand, -en, -e, -ene"],
@@ -979,6 +1030,12 @@ export const en_dk : Lexeme[] = [
     type: "sb.",
     translations: ["inddata, -en, -, -ene"],
     keywords: ["complexity theory", "algorithmics", "cryptography"]
+  },
+  {
+    word: "instance",
+    type: "sb.",
+    translations: ["forekomst, -en, -er, -erne"],
+    keywords: ["programming languages", "software engineering"]
   },
   {
     word: "integer",
@@ -1685,6 +1742,14 @@ export const en_dk : Lexeme[] = [
       "afløb, -et, -, -ene"
     ],
     keywords: ["graph"]
+  },
+  {
+    word: "slash",
+    type: "sb.",
+    translations: [
+      "skråstreg, -en, -er, -erne"
+    ],
+    keywords: ["typography"]
   },
   {
     word: "sound",
